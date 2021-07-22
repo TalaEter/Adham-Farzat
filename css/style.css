@@ -27,13 +27,38 @@ a {
   --extrabold-font: 700;
 }
 
+h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  padding-bottom: 2%;
+}
+
 /********************************** NAVIGATION BAR *************************************/
 nav img {
   width: 50px;
   height: 50px;
 }
+#first-container .logo {
+  width: 100px;
+  height: 100px;
+}
+#first-container img {
+  width: 100vw;
+  height: 100vh;
+}
+#first-container h1 {
+  border-bottom: 1px grey solid;
+  width: 11ch;
+  text-align: center;
+  display: inline-block;
+}
+#first-container p {
+  /* width: 70%; */
+  display: inline;
+}
+
 .slider-bg {
-  height: 150vh;
+  height: 140vh;
   padding-top: 7%;
 }
 .slider-bg .shadow {
@@ -59,6 +84,19 @@ nav img {
 }
 h5 {
   color: rgb(60, 60, 60) !important;
+}
+
+#services-container {
+  clip-path: polygon(0 20%, 100% 0, 100% 90%, 0% 100%);
+  padding: 15% 0 15% !important;
+  background-color: hsl(0, 1%, 90%);
+}
+#services-container h1 {
+  padding-bottom: 2%;
+}
+
+#why-us-container {
+  background-color: hsl(0, 0%, 100%);
 }
 /* #home-container .overlay {
   position: absolute;
