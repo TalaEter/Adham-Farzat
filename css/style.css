@@ -101,3 +101,70 @@ h5 {
 #why-us-container img {
   border-radius: 5px;
 }
+#testimonials-container {
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+  padding: 15% 0 15% !important;
+  background-image: url("../images/first-cont-white-overlay.jpg");
+  /* width: 100%; */
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+footer {
+  background-color: hsl(0, 1%, 90%);
+}
+.padding-footer {
+  padding: 1.5% 5%;
+}
+
+/* div.white-out {
+  display: inline-block;
+  background: #fff;
+}
+div.white-out img {
+  opacity: 0.2;
+} */
+/* .contact-container {
+  background-color: skyblue;
+  height: fit-content;
+}
+.contact-container .text {
+  padding: 7vh 8vw;
+  width: 34%;
+  height: 70%;
+}
+.contact-container input,
+textarea {
+  overflow: visible;
+  width: 95%;
+  margin: 1vh 0;
+  border: 0;
+  height: 4.5rem;
+  border-radius: 4px;
+  color: rgba(96, 98, 122, 0.4);
+  padding-left: 2rem;
+}
+::placeholder,
+textarea {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: rgba(96, 98, 122, 0.4);
+}
+.contact-container textarea {
+  height: 13rem;
+  padding: 2rem;
+  width: 91%;
+  margin-bottom: 3rem;
+}
+.contact-container .primary-btn {
+  color: white;
+  width: fit-content;
+  text-align: center;
+  font-weight: 700;
+  padding: 0.5rem 4rem;
+  font-size: 1.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  /* margin: 10.5px; 
+    width: fit-content; 
+} */

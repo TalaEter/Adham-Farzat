@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-    crossorigin="anonymous">
+    crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -29,8 +29,8 @@
                 <li class="uk-parent"><a href="#references-container">References</a></li>
                 <li class="uk-parent"><a href="#services-container">Services</a></li>
                 <li class="uk-parent"><a href="#why-us-container">Why Us</a></li>
-                <li class="uk-parent"><a href="">Work</a></li>
-                <li class="uk-parent"><a href="">Contact</a></li>
+                <li class="uk-parent"><a href="#testimonials-container">Testimonials</a></li>
+                <li class="uk-parent"><a href="#contact-container">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -39,6 +39,7 @@
     <!-- First container -->
 
     <div id="home-container">
+        <div class="uk-scope">
         <img src="./images/home-container.jpg" alt="">
         <div class="uk-overlay-default uk-position-cover"></div>
         <div class="uk-overlay uk-position-center uk-dark">
@@ -49,13 +50,13 @@
             <p class="uk-padding-large uk-width-1-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis molestias est officia iure quaerat quas quam modi ullam ad!</p>
         </div>
     </div>
-
+</div>
 
     <!-- references CONTAINER -->
 
 <!-- TODO: time for slider -->
 <div id="references-container">
-<div class="slider-bg">
+    <div class="slider-bg">
     <h1>References</h1>
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true; autoplay:true; finite: false; autoplay-interval: 2500;velocity: 1.5; easing: cubic-bezier(.4,0,.2,1)">
 
@@ -95,8 +96,6 @@
         <button class="primary-button">View our work</button>
     </div>
 </div>
-
-    <!-- SERVICES -->
 
 
 
@@ -152,9 +151,7 @@
 
 <!-- Why us container -->
 <div id="why-us-container">
-    <br>
-    <br>
-    <br>
+    <br><br><br>
     <div class="uk-container">
         <h1>Why Us?</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nostrum, doloribus ducimus quam voluptate cum natus quae expedita illo alias, sint aspernatur porro. Nobis odio ipsam tempore quasi dolorem! Ipsa libero enim quod. Magni perspiciatis, est blanditiis labore corrupti dignissimos sit nulla nobis, iure reiciendis officia porro veniam reprehenderit optio.</p>
@@ -196,11 +193,77 @@
     </div>
 </div>
 
+<!-- Contact us-> reviews -->
+<div id="testimonials-container">
+    <div class="uk-container">
+        <h1>Testimonials</h1>
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-box-shadow-hover-large">
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <p class="uk-text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis vero sapiente natus reprehenderit voluptas sit voluptatem cumque exercitationem doloremque at dicta, totam veritatis obcaecati esse culpa id magni nesciunt?</p>
+                    <h5 class="uk-text-muted">Lorem ipsum</h5>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-box-shadow-hover-large">
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <p class="uk-text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis vero sapiente natus reprehenderit voluptas sit voluptatem cumque exercitationem doloremque at dicta, totam veritatis obcaecati esse culpa id magni nesciunt?</p>
+                    <h5 class="uk-text-muted">Lorem ipsum</h5>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-box-shadow-hover-large">
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <span uk-icon="star"></span>
+                    <p class="uk-text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis vero sapiente natus reprehenderit voluptas sit voluptatem cumque exercitationem doloremque at dicta, totam veritatis obcaecati esse culpa id magni nesciunt?</p>
+                    <h5 class="uk-text-muted">Lorem ipsum</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
 
-
-
-
-
+<!-- Footer contact -->
+<footer id="contact-container">
+    <div class="uk-light uk-background-secondary padding-footer">
+        <h1>Contact Us</h1>
+        <p >We look forward to working with clients who have an eye for detail and a love of high quality. If you are searching for a Huddersfield builder, we would be delighted to quote for your project.
+            We are a Huddersfield based builder but will consider projects in the surrounding areas including Kirklees, Wakefield, Barnsley, Sheffield and into the Peak District. </p>
+        <div>
+            <span class="uk-padding">                    
+                <a href="https://www.linkedin.com/" class="uk-icon-button" uk-icon="linkedin"></a>
+                <span ><a href="https://www.linkedin.com/">Adham-Farzat LinkedIn</a></span>
+            </span>
+            <span class="uk-padding">                    
+                <a href="" class="uk-icon-button" uk-icon="whatsapp"></a>
+                <span ><a href="https://www.whatsapp.com/">000 000 000 0</a></span>
+            </span>
+            <span class="uk-padding">                    
+                <a href="goto:mail" class="uk-icon-button" uk-icon="mail"></a>
+                <span ><a href="goto:mail">Adham-Farzat@gmail.com</a></span>
+            </span>
+            <span class="uk-padding">                    
+                <a href="" class="uk-icon-button" uk-icon="receiver"></a>
+                <span ><a href="">000 000 000 0</a></span>
+            </span>
+        </div>
+        <hr class="uk-divider-icon">
+        <h6>Site implemented and designed by <span><a href="">Tala Eter</a></span></h6>
+    </div>
+</footer>
 
 
 
@@ -209,23 +272,49 @@
     <!-- trash -->
 
 
-    <!-- <section id="home-container">
-        <div class="uk-inline">
-            <img src="./images/home-container.jpg" alt="">
-            <div class="uk-overlay-primary uk-position-cover">
-                <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="uk-overlay uk-position-bottom uk-light">
+    <!-- 
+        <img src="./images/first-cont.png" alt="">
+    <div class="uk-container">
+        <div class="uk-child-width-1-2@m" uk-grid>
+            <form class="uk-grid-medium" uk-grid>
+                <h2 class="uk-width-1-1@m">Contact Us</h2>
+                <div class="uk-width-1-2@m">
+                    <input class="uk-input uk-text-left" type="text" placeholder="Name">
+                </div>
+                <div class="uk-width-1-2@m">
+                    <input class="uk-input uk-text-left" type="email" placeholder="Email Address">
+                </div>
+                <textarea class="uk-textarea uk-text-left uk-text-muted">Message</textarea>
+            </form>
+            <div>
+                <img src="" alt="">
+                <div>
+                    <a href="https://www.linkedin.com/" class="uk-icon-button" uk-icon="linkedin"></a>
+                    <span ><a class="uk-text-muted" href="https://www.linkedin.com/">Adham-Farzat LinkedIn</a></span>
+                </div>
+                <div>
+                    <a href="" class="uk-icon-button" uk-icon="whatsapp"></a>
+                    <span ><a class="uk-text-muted" href="https://www.whatsapp.com/">000 000 000 0</a></span>
+                </div>
+                <div>
+                    <a href="goto:mail" class="uk-icon-button" uk-icon="mail"></a>
+                    <span ><a class="uk-text-muted" href="goto:mail">Adham-Farzat@gmail.com</a></span>
+                </div>
+                <div>
+                    <a href="" class="uk-icon-button" uk-icon="receiver"></a>
+                    <span ><a class="uk-text-muted" href="https://www.linkedin.com/">000 000 000 0</a></span>
+                </div>
+
             </div>
         </div>
-
-    </section> -->
-
-
+        
+    </div> -->
 
 
+
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
     <script src="https://kit.fontawesome.com/dae8e06afd.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
     
