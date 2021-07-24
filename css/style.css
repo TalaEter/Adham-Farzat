@@ -38,6 +38,11 @@ nav img {
   width: 50px;
   height: 50px;
 }
+@media screen and (min-width: 870px) {
+  nav {
+    display: none !important;
+  }
+}
 #home-container .logo {
   width: 100px;
   height: 100px;
@@ -48,7 +53,7 @@ nav img {
 }
 #home-container h1 {
   border-bottom: 1px grey solid;
-  width: 11ch;
+  max-width: 11ch;
   text-align: center;
   display: inline-block;
 }
@@ -56,9 +61,29 @@ nav img {
   /* width: 70%; */
   display: inline;
 }
+#welcome-container {
+  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+  padding: 2% 0 5% !important;
+  /* background-color: hsl(0, 1%, 90%); */
+}
+#what-we-do-container {
+  /* clip-path: polygon(0 0%, 100% 0%, 100% 90%, 0% 100%); */
+  /* background-color: hsl(0, 0%, 15%); */
+}
 
+.border-bottom {
+  border-bottom: 1px grey solid;
+  /* text-align: left; */
+  width: 3ch;
+}
+#references-container {
+  padding: 7% 0 5vw;
+}
+#references-container h1 {
+  font-size: calc(2.5rem + 1vw); /*43px*/
+}
 .slider-bg {
-  height: 140vh;
+  max-height: 140vh;
   padding-top: 7%;
 }
 .slider-bg .shadow {
@@ -87,8 +112,8 @@ h5 {
 }
 
 #services-container {
-  clip-path: polygon(0 20%, 100% 0, 100% 90%, 0% 100%);
-  padding: 15% 0 15% !important;
+  clip-path: polygon(0 5%, 100% 0, 100% 90%, 0% 100%);
+  padding: 10vw 0 15vw !important;
   background-color: hsl(0, 1%, 90%);
 }
 #services-container h1 {
@@ -102,13 +127,13 @@ h5 {
   border-radius: 5px;
 }
 #testimonials-container {
-  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
-  padding: 15% 0 15% !important;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  padding: 28vw 0 15vw !important;
   background-image: url("../images/first-cont-white-overlay.jpg");
   /* width: 100%; */
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  min-height: 125vh;
 }
 footer {
   background-color: hsl(0, 1%, 90%);
@@ -116,7 +141,9 @@ footer {
 .padding-footer {
   padding: 1.5% 5%;
 }
-
+iframe {
+  max-width: 90vw;
+}
 /* div.white-out {
   display: inline-block;
   background: #fff;
