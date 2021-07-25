@@ -76,6 +76,11 @@ nav img {
   /* text-align: left; */
   width: 3ch;
 }
+.border-bottom-history {
+  border-bottom: 1px grey solid;
+  text-align: center !important;
+  /* width: 3ch; */
+}
 #references-container {
   padding: 7% 0 5vw;
 }
