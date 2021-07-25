@@ -131,6 +131,10 @@ h5 {
 #why-us-container img {
   border-radius: 5px;
 }
+#history-container img {
+  object-fit: cover;
+  height: 30vh;
+}
 #testimonials-container {
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
   padding: 28vw 0 15vw !important;
