@@ -53,24 +53,33 @@ nav img {
 #home-container img {
   width: 100vw;
   height: 100vh;
+  /* margin-right: -100px; */
 }
 #home-container h1 {
-  border-bottom: 1px grey solid;
-  max-width: 11ch;
+  border-top: 1px rgb(252, 251, 251) solid;
+  padding-top: 2rem !important;
+  max-width: 14ch;
   text-align: center;
   display: inline-block;
 }
-#home-container p {
+#home-container h2 {
   /* width: 70%; */
+  padding-bottom: 2rem !important;
   display: inline;
+  border-bottom: 1px rgb(252, 251, 251) solid;
+  max-width: 14ch;
 }
 #home-container {
   position: relative;
+  background-image: url("../images/home_banner.jpeg");
+  height: 100vh;
+  background-position-x: 0px;
+  background-position-y: -50px;
   /* background-size: cover; */
 }
 #home-container .bottom-layer-shape {
   clip-path: polygon(24% 0, 100% 19%, 72% 100%, 0 100%, 0 25%);
-  background-color: hsla(0, 0%, 100%, 1);
+  background-color: rgb(79, 97, 123);
   height: 55vh;
   width: 50vw;
   position: absolute;
@@ -79,7 +88,7 @@ nav img {
 }
 #home-container .top-layer-shape {
   clip-path: polygon(31% 0, 76% 11%, 100% 100%, 0 100%, 0 25%);
-  background-color: hsla(0, 0%, 90%, 0.3);
+  background-color: hsla(215, 22%, 26%, 0.5);
   height: 60vh;
   width: 50vw;
   position: absolute;
