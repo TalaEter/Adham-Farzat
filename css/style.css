@@ -129,7 +129,7 @@ nav img {
   padding: 7% 0 5vw;
 }
 #references-container h1 {
-  font-size: calc(2.5rem + 1vw); /*43px*/
+  font-size: calc(2.5rem + 1vw);
 }
 .slider-bg {
   max-height: 140vh;
