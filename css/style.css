@@ -111,7 +111,7 @@ nav img {
   font-size: calc(2rem + 1vw); /*43px*/
 }
 #what-we-do-container {
-  /* clip-path: polygon(0 0%, 100% 0%, 100% 90%, 0% 100%); */
+  /* clip-path: polygon(0 0%, 100% 0%, 100% 90%, 0% 100%);  */
   /* background-color: hsl(0, 0%, 15%); */
 }
 
