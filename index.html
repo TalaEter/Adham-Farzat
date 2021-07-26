@@ -20,20 +20,26 @@
     <nav class="uk-navbar-container uk-position-fixed uk-position-z-index uk-width-1-1" uk-navbar>
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#"><img src="./images/af-logo.png" class="logo" alt="">SEMAS</a></li>
+                <!-- <li class="uk-active"><a href="#"><img src="./images/af-logo.png" class="logo" alt="">SEMAS</a></li> -->
+                <li class="uk-active"><a href="#"><h3 class=" uk-text-bold uk-display-inline uk-margin-remove-bottom">SEMAS</h3></a></li>
             </ul>
         </div>
-        <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#home-container" uk-scroll>Home</a></li>
-                <li class="uk-parent"><a href="#references-container" uk-scroll>References</a></li>
-                <li class="uk-parent"><a href="#services-container" uk-scroll>Services</a></li>
-                <li class="uk-parent"><a href="#history-container" uk-scroll>History</a></li>
+        <!-- <button class="uk-button uk-button-default uk-navbar-toggle" type="button" uk-toggle="target: #toggle-usage"><span uk-icon="heart"></span></button> -->
+        <!-- <button href="#toggle-animation" class="uk-button uk-button-default" type="button" uk-toggle="target: #toggle-animation; animation: uk-animation-fade">Toggle</button> -->
+        <!-- <div id="toggle-animation" class="uk-card uk-card-default uk-card-body uk-margin-small"> -->
+        <div class="uk-navbar-right" id="toggle-usage">
+            <ul class="uk-navbar-nav ">
+                <li class="uk-active"><a href="#home-container" uk-scroll>Home /</a></li>
+                <li class="uk-parent"><a href="#welcome-container" uk-scroll>About Us /</a></li>
+                <li class="uk-parent"><a href="#services-container" uk-scroll>Services /</a></li>
+                <li class="uk-parent"><a href="#references-container" uk-scroll>References /</a></li>
+                <li class="uk-parent"><a href="#history-container" uk-scroll>History /</a></li>
                 <!-- <li class="uk-parent"><a href="#why-us-container" uk-scroll>Why Us</a></li> -->
                 <!-- <li class="uk-parent"><a href="#testimonials-container" uk-scroll>Testimonials</a></li> -->
                 <li class="uk-parent"><a href="#contact-container" uk-scroll>Contact</a></li>
             </ul>
-        </div>
+        <!-- </div> -->
+    </div>
     </nav>
 
 
@@ -41,15 +47,23 @@
 
 <div id="home-container">
         <div class="uk-scope" >
-        <img src="./images/home-banner.jpg" alt="">
-        <div class="uk-overlay-default uk-position-cover"></div>
-        <div class="uk-overlay uk-position-center uk-dark" >
-            <img src="./images/af-logo.png" class="logo" alt="" data-aos="fade-down">
-            <br>
-            <h1 data-aos="fade-down">Adham Farzat</h1>
-            <br>
-            <p class="uk-padding-large uk-width-1-2" data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis molestias est officia iure quaerat quas quam modi ullam ad!</p>
+        <img src="./images/home_banner.jpeg" alt="">
+        <!-- <div class="uk-overlay-default uk-position-cover"></div> -->
+        <div>
+            <div class="bottom-layer-shape">
+
+            </div>
+            <div class="top-layer-shape">
+                <div class="uk-container uk-position-left uk-dark uk-padding-large" >
+                    <!-- <img src="./images/af-logo.png" class="logo" alt="" data-aos="fade-down"> -->
+                    <br>
+                    <h1 data-aos="fade-down uk-text-large uk-padding-large uk-padding-remove-horizontal uk-padding-remove-bottom">Semas</h1>
+                    <br>
+                    <h2 class=" uk-padding-large uk-padding-remove-vertical uk-padding-remove-right uk-width-1-1" data-aos="fade-down">Gut ist nicht genug...</h2>
+                </div>
+            </div>
         </div>
+
     </div>
 </div>
 
@@ -67,18 +81,37 @@
 <!-- what we do -->
 <section id="what-we-do-container">
     <div class="uk-container uk-padding-large ">
+
         <div class="uk-card uk-card-default uk-card-body uk-grid-divider uk-child-width-expand@s uk-dark uk-background-muted uk-padding" uk-grid data-aos="fade-right">
             <div><h3 class="uk-text-left border-bottom uk-margin-remove-bottom">01</h3><h2 class=" uk-text-left uk-margin-remove-top">What We Do</h2></div>
             <div class="uk-text-left">Hier bei Bauunternehmung SEMAS bieten wir Baudienstleistungen von höchster Qualität, egal wie groß oder klein Ihr Auftrag ist. Unser Team verfügt über das Fachwissen und die Fähigkeiten, die erforderlich sind, um eine professionelle Arbeit für Ihr nächstes Wohnprojekt zu gewährleisten.</div>
         </div>
+
         <div class="uk-card uk-card-default uk-card-body uk-grid-divider uk-child-width-expand@s uk-dark uk-background-muted uk-padding" uk-grid data-aos="fade-right">
-            <div><h3 class=" uk-text-left border-bottom uk-margin-remove-bottom">02</h3><h2 class=" uk-text-left uk-margin-remove-top">Our Approach</h2></div>
-            <div class=" uk-text-left">Unser Ziel ist es, Ihre Träume zu verwirklichen, indem wir Ihnen die zuverlässigsten und qualifiziertesten Fachleute zur Verfügung stellen, die alle Aspekte Ihres nächsten Projekts übernehmen. Wir sind stolz darauf, unseren Kunden einen All-in-One-Service zu bieten.</div>
-        </div>
-        <div class="uk-card uk-card-default uk-card-body uk-grid-divider uk-child-width-expand@s uk-dark uk-background-muted uk-padding" uk-grid data-aos="fade-right">
-            <div><h3 class=" uk-text-left border-bottom uk-margin-remove-bottom">03</h3><h2 class=" uk-text-left uk-margin-remove-top">Our Mission</h2></div>
+            <div><h3 class=" uk-text-left border-bottom uk-margin-remove-bottom">02</h3><h2 class=" uk-text-left uk-margin-remove-top">Our Mission</h2></div>
             <div class=" uk-text-left">Unsere Mission ist es, die vollständige Kundenzufriedenheit anzustreben, indem wir alle Bauprojekte innerhalb des Budgets, des Zeitrahmens und nach den höchsten Standards ausführen.</div>
         </div>
+
+        <div class="uk-card uk-card-default uk-card-body uk-grid-divider uk-child-width-expand@s uk-dark uk-background-muted uk-padding" uk-grid data-aos="fade-right">
+            <div class="uk-container uk-width-1-1">
+                <div><h2 class=" uk-text-center uk-margin-remove-top">Our Approach</h2></div>
+                <div class=" uk-text-left"></div>
+            </div> 
+            <div >
+                <div><i class=" uk-icon-button uk-margin icon-background" uk-icon="icon: bolt ; ratio: 2"></i><h3 class=" uk-text-center uk-margin-remove-top">Innovation</h3></div>
+                <div class=" uk-text-center">Unser Ziel ist es, Ihre Träume zu verwirklichen, indem wir Ihnen die zuverlässigsten und qualifiziertesten Fachleute zur Verfügung stellen, die alle Aspekte Ihres nächsten Projekts übernehmen. Wir sind stolz darauf, unseren Kunden einen All-in-One-Service zu bieten.</div>
+            </div> 
+            <div >
+                <div><i class=" uk-icon-button uk-margin icon-background" uk-icon="icon: users ; ratio: 2"></i><h3 class=" uk-text-center uk-margin-remove-top">Partnership</h3></div>
+                <div class=" uk-text-center">Unser Ziel ist es, Ihre Träume zu verwirklichen, indem wir Ihnen die zuverlässigsten und qualifiziertesten Fachleute zur Verfügung stellen, die alle Aspekte Ihres nächsten Projekts übernehmen. Wir sind stolz darauf, unseren Kunden einen All-in-One-Service zu bieten.</div>
+            </div> 
+            <div >
+                <div><i class=" uk-icon-button uk-margin icon-background" uk-icon="icon: world ; ratio: 2"></i><h3 class=" uk-text-center uk-margin-remove-top">Reliability</h3></div>
+                <div class=" uk-text-center">Unser Ziel ist es, Ihre Träume zu verwirklichen, indem wir Ihnen die zuverlässigsten und qualifiziertesten Fachleute zur Verfügung stellen, die alle Aspekte Ihres nächsten Projekts übernehmen. Wir sind stolz darauf, unseren Kunden einen All-in-One-Service zu bieten.</div>
+            </div> 
+
+        </div>
+
     </div>
 </section>
 
@@ -86,52 +119,68 @@
 
 
     <!-- SERVICES CONTAINER -->
-    <div id="services-container">
-        <div class="uk-container uk-padding-large ">
-            <h1 data-aos="fade-left">Services</h1>
-            <div class="uk-child-width-1-3@m" uk-grid data-aos="fade-up">
-                <div>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="./images/slider2.jpg" alt="">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Renovation</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            <button class="primary-button" onClick="parent.location='work.html#renovation-container'">See more</button>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="./images/slider4.jpg" alt="">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Construction</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            <button class="primary-button" onClick="parent.location='work.html#construction-container'">See more</button>
+<div id="services-container">
+    <div class="uk-container uk-padding-large ">
+        <h1 data-aos="fade-left">Services</h1>
+        <div class="uk-child-width-1-3@m" uk-grid data-aos="fade-up">
+
+            <div>
+                <div class="uk-card uk-card-default ">
+                    <!-- <div class="uk-card-media-top">
+                    </div> -->
+                    <div class="uk-card-body uk-padding-remove-vertical uk-padding-remove-horizontal">
+                        <img src="./images/slider2.jpg" class="uk-width-1-1" alt="">
+                        <div class="uk-padding-large">
+                            <div class="services-card">
+                                <h3 class="uk-card-title">Renovation</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                <button class="primary-button" onClick="parent.location='work.html#renovation-container'">See more</button>
+                            </div>
                         </div>
                     </div>
-                    
                 </div>
-                <div>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="./images/slider5.jpg" alt="">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            <button class="primary-button" onClick="parent.location='work.html#design-container'">See more</button>
-                        </div>
-                    </div>
                     
-                </div>
             </div>
-            <br>
+
+            <div>
+                <div class="uk-card uk-card-default ">
+                    <!-- <div class="uk-card-media-top">
+                    </div> -->
+                    <div class="uk-card-body uk-padding-remove-vertical uk-padding-remove-horizontal">
+                        <img src="./images/slider4.jpg" class="uk-width-1-1" alt="">
+                        <div class="uk-padding-large">
+                            <div class="services-card">
+                                <h3 class="uk-card-title">Construction</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                <button class="primary-button" onClick="parent.location='work.html#renovation-container'">See more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+
+            <div>
+                <div class="uk-card uk-card-default ">
+                    <!-- <div class="uk-card-media-top">
+                    </div> -->
+                    <div class="uk-card-body uk-padding-remove-vertical uk-padding-remove-horizontal">
+                        <img src="./images/slider5.jpg" class="uk-width-1-1" alt="">
+                        <div class="uk-padding-large">
+                            <div class="services-card">
+                                <h3 class="uk-card-title">Design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                <button class="primary-button" onClick="parent.location='work.html#renovation-container'">See more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+
         </div>
+        <br>
+    </div>
 </div>
 
 
@@ -345,7 +394,14 @@
     </div>
 </div> -->
 
-
+<!-- karriere -->
+<section id="karriere">
+    <div class="uk-container uk-padding-large uk-padding">
+        <h1 class="border-bottom-karriere uk-text-lighter">Karriere</h1>
+        <h4 class="uk-text-normal uk-text-italic">" Eine Kette ist nur so stark, wie ihr schwächstes Glied "</h4>
+        <h2 class="uk-link-muted uk-text-lighter"><a href="work.html">Unser Team sucht Verstärkung :</a></h2>
+    </div>
+</section>
 
 <!-- Footer contact -->
 <footer id="contact-container">
